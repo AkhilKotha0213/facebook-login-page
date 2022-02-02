@@ -126,13 +126,13 @@ login p {
     font-size: 14px;
 }
 
-login p a {
+.login p a {
     text-decoration: none;
     color: #1c1e21;
     font-weight: 600;
 }
 
-login p a:hover {
+.login p a:hover {
     text-decoration: underline;
 }
 
