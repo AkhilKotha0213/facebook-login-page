@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(240,242,245);
+    color: black;
+}
+body main top{
+    background-color:FFFFFF ;
+    height:10vh ;
+    position: relative;
+    width: 100vh;
+} 
+
+body main middle{
+    background-color:E9EBEE ;
+    height: 50vh;
+    position:relative;
+    align-items: center;
+}
+footer{
+    background-color: FFFFFF;
+    height: 40vh;
+
+}
