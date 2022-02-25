@@ -7,22 +7,116 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: rgb(240,242,245);
     color: black;
+    
 }
-body main top{
+body main .top {
     background-color:FFFFFF ;
+    display: flex;
     height:10vh ;
     position: relative;
-    width: 100vh;
+    width: 100%;
+    justify-content: space-between;
 } 
-
-body main middle{
-    background-color:E9EBEE ;
-    height: 50vh;
-    position:relative;
-    align-items: center;
+#login{
+    padding-right: 10px;
+    background-color: rgb(27,116,228);
+    font-weight: 700;
+    border-radius: 6px;
+    color: white;
+    width:75px;
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    border: none;
 }
-footer{
-    background-color: FFFFFF;
-    height: 40vh;
 
+.middle{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(233,235,238)f;
+    height:50vh;
+}
+.middle form{
+    background-color: #ffffff;
+    max-width: 700px;
+    border-radius: 8px;
+    height:300px
+}
+.middle p{
+    padding: 15px;
+}
+.middle p:first-child{
+    border-bottom: 1px solid #dddfe2;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* .middle p:last-child{
+    padding-left:15px ;
+    color: blue;
+} */
+#email{
+    width: 100%;
+    font-size: 15px;
+    color:rgb(114, 107, 117);
+    padding: 10px;
+    border-radius: 8px;
+    /* border-color:rgb(114, 107, 117); */
+    border: 1px solid rgb(198, 190, 201);
+    
+}
+.middle form #cancel{
+    width:90px;
+    height: 30px;
+    font-weight: bold;
+    color: #363535;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.middle form #search{
+    width:90px;
+    height: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(27,116,228);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.middle form button{
+    float: right;
+}
+
+
+footer{
+    max-width: 1000px;
+    width: 100%;
+    height: 40vh;
+}
+.footertext ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+footer ol:first-child {
+    border-bottom: 1px solid #dddfe2;
+}
+footer ol:first-child li:last-child button{
+    width:30px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    height:20px;
+}
+.footertext ol li{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.footertext ol li a{
+    color: rgb(153,141,159);
+    padding-left: 10px;
+    font-size: 12px;
+    text-decoration: none;
 }
