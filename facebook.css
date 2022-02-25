@@ -24,7 +24,7 @@ footer{
     align-items: center;
     width: 100%;
     max-width: 1000px;
-    position: absolute;
+    position: relative;
     left: 50%; 
     top: 50%;
     transform: translate(-50%,-50%);
@@ -160,7 +160,9 @@ footer ol:first-child li:last-child button {
     color: #4b4f56;
     padding: 0 8px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
+    height: 20px;
+    border-radius: 2px;
 }
 footer ol:first-child li:last-child button {
     cursor: pointer;
